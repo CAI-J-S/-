@@ -1,0 +1,58 @@
+.背景板{
+  width: 84%;
+  margin: 0 auto;
+  padding: 60px 0;
+  background-color:antiquewhite;
+}
+
+.周边图标{
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.周边图标 > img{
+  width: 20%;
+  background-repeat: no-repeat;
+}
+
+.横排{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding:60px 0 0 0;
+}
+
+.第一个{
+  width: 50%;
+}
+
+.周边图{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.周边图片{
+  width: 90%;
+  background-repeat: no-repeat;
+}
+
+.第二个{
+  width: 50%;
+}
+
+.周边文本{
+  padding: 20px 0 0 0;
+}
+
+.周边图 a {
+  text-decoration: none ;
+}
+
+.周边文本 a{
+  color: inherit;
+  text-decoration: none !important;
+}

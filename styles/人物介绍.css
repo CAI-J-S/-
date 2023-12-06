@@ -1,0 +1,85 @@
+.介绍{
+    width: 84%;
+    margin: 0 auto;
+}
+
+.图片{
+    padding: 50px 40px 50px 100px;
+}
+
+.文本{
+    padding: 50px 100px 50px 40px;
+}
+
+.标题{
+    font-size: 60px;
+    font-weight: bolder;
+    transform:translateY(-40%);
+}
+
+.内容{
+    font-size: 20px;
+    font-weight: bolder;
+    transform:translateY(-10%);
+
+}
+
+.身体信息{
+    font-size: 20px;
+    font-weight: bolder;
+    transform:translateY(40%);
+}
+
+.哆啦a梦介绍{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color:cornflowerblue;
+}
+
+.哆啦美介绍{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color:gold;
+}
+
+.大雄介绍{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color:#fbbe85;
+}
+
+.静香介绍{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color:#f99bba;
+}
+
+.胖虎介绍{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color:#f3ce3b;
+}
+
+.小夫介绍{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color:#5ab4e5;
+}

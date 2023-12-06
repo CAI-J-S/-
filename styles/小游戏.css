@@ -1,0 +1,70 @@
+.背景板 {
+  width: 84%;
+  margin: 0 auto;
+  padding: 60px 0;
+  background-color:antiquewhite;
+}
+
+.游戏图标 {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+.游戏图标 > img {
+  width: 40%;
+  background-repeat: no-repeat;
+}
+
+.横排 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding:60px 0 0 0;
+}
+
+.第一个 {
+  width: 50%;
+}
+
+.游戏图片 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.游戏图{
+  width: 75%;
+  background-repeat: no-repeat;
+}
+
+.第二个 {
+  width: 50%;
+}
+
+.游戏文本{
+  padding: 20px 0 0 0;
+  text-align: center;
+  align-items: center;
+}
+
+.游戏图片 a {
+  text-decoration: none ;
+}
+
+.游戏文本 a{
+  color: black;
+  text-decoration: none;
+
+}
+
+.游戏按钮 {
+  width: 180px;
+  height: 60px;
+  font-size: 30px;
+  color:white;
+  background-color: red;
+  border-radius: 20px;
+ 
+}

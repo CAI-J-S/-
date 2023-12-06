@@ -1,0 +1,23 @@
+.图片长廊 {
+    width: 84%;
+    height: 800px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: aquamarine;
+    margin: 0 auto;
+}   
+.展示图片 {
+    height: 100%;
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.展示图片 > img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+}

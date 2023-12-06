@@ -1,0 +1,30 @@
+.介绍{
+    width: 84%;
+    height: fit-content;
+    margin: 0 auto;
+    font-size: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+}
+
+.文本{
+    width: 100%;
+    padding: 80px 200px 120px 200px;
+}
+
+.标题 > p1{
+    width: auto;
+    height: auto;
+    font-size: 50px;
+    color:dodgerblue;
+}
+
+.标题 > p2{
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    color:dodgerblue;
+}
+

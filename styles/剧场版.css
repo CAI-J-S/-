@@ -1,0 +1,53 @@
+.背景板{
+    width: 84%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.整体{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.图片{
+    padding: 50px 50px 50px 100px;
+}
+
+.图片 > img{
+    width: 300px;
+    height: auto;
+}
+
+.电影文本{
+    padding: 50px 100px 50px 50px ;
+}
+
+.标题{
+    font-size: 50px;
+    font-weight: bolder;
+    color:red;
+    transform: translateY(-30%);
+}
+
+.内容{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.空隙{
+    width: 100%;
+    height: 50px;
+    background-color: #7ecef3;
+}
+
+.图片 a{
+    text-decoration: none !important;
+}
+
+.标题 a{
+    color: inherit;
+    text-decoration: none !important;
+}
