@@ -1,23 +1,84 @@
-.图片长廊 {
-    width: 84%;
-    height: 800px;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    background-color: aquamarine;
-    margin: 0 auto;
-}   
-.展示图片 {
-    height: 100%;
-    width: 100%;
-    max-width: 1500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+:root {
+  --图片宽度: 800px;
 }
-.展示图片 > img {
-    width: 70%;
-    height: 70%;
-    object-fit: contain;
+
+.图片轮播 {
+  width: 84%;
+  height: 800px;
+  margin: 0 auto;
+  /* background-color: aquamarine; */
+  position: relative;
+}
+
+.轮播视口 {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  overflow: hidden;
+  margin: 100px auto;
+}
+
+.图片长廊 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  translate: calc(var(--图片宽度) / 2);
+  transition: 250ms;
+}
+
+.箭头 {
+  position: absolute;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  background-color: #0005;
+  color: white;
+  border-radius: 100px;
+  border: none;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s;
+}
+
+.箭头:hover {
+  cursor: pointer;
+  background-color: #000c;
+}
+
+.左箭头 {
+  top: 50%;
+  left: 2.5%;
+  translate: 0 -50%;
+}
+
+.右箭头 {
+  top: 50%;
+  right: 2.5%;
+  translate: 0 -50%;
+}
+
+.轮播图片区域 {
+  position: relative;
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.轮播图片 {
+  height: 500px;
+  width: 800px;
+}
+.图片轮播 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
