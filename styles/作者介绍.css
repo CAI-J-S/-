@@ -1,30 +1,65 @@
-.介绍{
-    width: 84%;
-    height: fit-content;
-    margin: 0 auto;
-    font-size: 20px;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    background-color: white;
+.介绍 {
+  width: 84%;
+  height: fit-content;
+  margin: 0 auto;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
 }
 
-.文本{
-    width: 100%;
-    padding: 80px 200px 120px 200px;
+.文本 {
+  width: 65%;
+  padding: 80px 0;
 }
 
-.标题 > p1{
-    width: auto;
-    height: auto;
-    font-size: 50px;
-    color:dodgerblue;
+.标题 > p1 {
+  width: auto;
+  height: auto;
+  font-size: 50px;
+  color: dodgerblue;
 }
 
-.标题 > p2{
-    width: auto;
-    height: auto;
-    font-size: 30px;
-    color:dodgerblue;
+.标题 > p2 {
+  width: auto;
+  height: auto;
+  font-size: 30px;
+  color: dodgerblue;
 }
 
+@media screen and (width<=1200px) {
+  .文本 {
+    width: 75%;
+  }
+}
+
+@media screen and (width<=900px) {
+  .菜单项 {
+    flex-direction: column !important;
+  }
+
+  .菜单文本 {
+    height: fit-content !important;
+    justify-content: center !important;
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (width<=600px) {
+  .菜单栏 {
+    gap: 0 !important;
+  }
+
+  .菜单文本 {
+    font-size: 1rem !important;
+  }
+
+  .介绍 {
+    width: 95%;
+  }
+
+  .文本 {
+    width: 95%;
+  }
+}
