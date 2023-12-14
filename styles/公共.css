@@ -119,7 +119,33 @@ body {
 }
 
 .底边{
+  margin: 0 auto;
+  width: 100%;
+  height: 200px;
+  background-color: #125488;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.页脚{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-right: 50px;
+  align-items: center;
+  gap: 400px;
+  /* background-color: blueviolet; */
+
+}
+.页脚分支{
+  width: 350px;
+  list-style-type: none;
+  font-size: 20px;
+  color:white;
+}
+
+.空隙{
   width: 100%;
   height: 100px;
-  background-color:#7ecef3;
+  background-color: #7ecef3;
 }
