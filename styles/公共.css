@@ -46,7 +46,6 @@ body {
   overflow: hidden;
 }
 
-
 .菜单图片 {
   width: 40%;
   aspect-ratio: 1;
@@ -56,7 +55,7 @@ body {
   text-decoration: none !important;
 }
 
-.菜单图片 > a{
+.菜单图片 > a {
   display: flex;
   width: 100%;
   height: 100%;
@@ -64,7 +63,7 @@ body {
   align-items: center;
 }
 
-.菜单栏图标{
+.菜单栏图标 {
   width: 60%;
   height: 60%;
   object-fit: contain;
@@ -94,10 +93,10 @@ body {
   color: white;
   font-size: 27px;
 }
-.菜单文本 span a{
+.菜单文本 span a {
   color: white;
   text-decoration: none;
-} 
+}
 
 .菜单文本:hover span {
   animation: 文本位移 0.35s linear forwards;
@@ -118,34 +117,41 @@ body {
   }
 }
 
-.底边{
+.底边 {
   margin: 0 auto;
   width: 100%;
-  height: 200px;
+  height: fit-content;
+  padding: 20px 0;
   background-color: #125488;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.页脚{
-  height: 100px;
+.页脚 {
+  height: fit-content;
   display: flex;
   justify-content: center;
   margin-right: 50px;
   align-items: center;
-  gap: 400px;
+  gap: 20vw;
   /* background-color: blueviolet; */
-
 }
-.页脚分支{
+.页脚分支 {
   width: 350px;
   list-style-type: none;
   font-size: 20px;
-  color:white;
+  color: white;
 }
 
-.空隙{
+.空隙 {
   width: 100%;
   height: 100px;
   background-color: #7ecef3;
+}
+
+@media screen and (width<=600px) {
+  .页脚 {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
